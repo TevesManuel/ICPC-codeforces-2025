@@ -32,7 +32,7 @@ int main()
         lastOuts.push_back(sumDeque(lastOuts)%MOD);
         while (lastOuts.size() > 6)
             lastOuts.pop_front();
-        printDeque(lastOuts);
+        // printDeque(lastOuts);
     }
     std::cout << lastOuts.back()%MOD;
     return 0;
